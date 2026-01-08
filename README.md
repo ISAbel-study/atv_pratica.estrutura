@@ -1,2 +1,2 @@
 # atv_pratica.estrutura
-atividade de estrutura de dados
+atividade prática de estrutura de dados
