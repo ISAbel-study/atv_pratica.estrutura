@@ -2,9 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <windows.h>
 
 // Função que verifica se um número é primo
 int verificarPrimo(int n) {
@@ -28,8 +25,7 @@ int verificarPrimo(int n) {
 int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
-    int nums_primos;// um numero só é primo se ele der modulo 0 por ele e por 1
-                    //se 5(x)/5(x)
+    int nums_primos;
 
     for(int i=1; i<= 1000;i++) {
         if(verificarPrimo(i)) {
@@ -40,4 +36,5 @@ int main() {
     printf("Existem %d números primos de 1 a 1000", nums_primos);
 
     return 0;
+
 }
